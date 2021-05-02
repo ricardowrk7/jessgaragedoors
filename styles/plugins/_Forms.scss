@@ -1,0 +1,51 @@
+.form-container {
+    width: 100%;
+}
+
+.form-field {
+    border: 1px darkgray solid;
+    border-radius: 12px;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.text-box-input {
+    border: none;
+    outline: none;
+    width: 90%;
+    background-color: #fff;
+}
+
+.text-field {
+    width: 100%;
+    border: 1px darkgray solid;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    height: 100px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.large-input-box {
+    outline: none;
+    border: none;
+    position: relative;
+    top: 4px;
+    left: 5px;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #d30000;
+    border: none;
+    color: #fff;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}

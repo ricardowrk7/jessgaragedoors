@@ -1,0 +1,45 @@
+.card-avatar {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.img-icon {
+    max-width: 50px;
+}
+
+.avatar-name {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 150px;
+    height: 120px;
+    align-items: center;
+}
+
+.card-container-C {
+    // height: 400px;
+}
+
+.card-item-c {
+    height: 490px;
+}
+
+.below-description {
+    width: 100%;
+    display: grid;
+    justify-items: right;
+}
+
+.description-background {
+    background-color: #e2e5e8;
+    width: 90%;
+}
+
+.card-description {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px;
+}
