@@ -1,0 +1,14 @@
+.brands-container {
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+    background-color: #fff;
+    height: 100%;
+}
+
+.brands-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 75%;
+}

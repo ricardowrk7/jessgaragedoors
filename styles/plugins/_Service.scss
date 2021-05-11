@@ -1,0 +1,42 @@
+.service-section-one {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 1200px;
+    margin: auto;
+    color: #333;
+}
+
+.service-left {
+    display: grid;
+    justify-items: center;
+}
+
+.service-title-2 {
+    width: 100%;
+}
+
+.image-services {
+    height: 220px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.image-box-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.below-service-header {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.paragraph-text-2 {
+    line-height: 24px;
+}
+
+.service-right {
+    position: relative;
+    left: 70px;
+    top: 15px;
+}

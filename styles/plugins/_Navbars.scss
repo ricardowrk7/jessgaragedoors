@@ -2,13 +2,15 @@
     height: 100%;
     width: 100vw;
     overflow: hidden auto;
-    background-color: #e5e5e5;
+    background-color: #fff;
 }
 
 .nav-container {
     width: 100vw;
-    background-color: #000;
-    height: 100px;
+    background-color: rgb(14, 13, 13);
+    position: fixed;
+    z-index: 600;
+    height: 90px;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -29,6 +31,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 500px;
     list-style: none;
+    cursor: pointer;
 }
 
 .roboto-text {

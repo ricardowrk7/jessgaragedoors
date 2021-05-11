@@ -8,17 +8,7 @@ const Contact = () => {
         <React.Fragment>
             <div className="contact-box">
                 <h4>SCHEDULE AN APPOINTMENT</h4>
-                <Form />
-                <img src="/img/5-star-customer-rating.png" alt="" className="right-map-img"/>
-                <p className="info-text-right">
-                    OUR COMPANY STOCKS AND ARE FAMILIAR WITH ALL THE MAJOR GARAGE DOOR BRANDS.
-                </p>
-                {Images.map((item, index) => {
-                    return (
-                        <img src={`img/${item}`} key={index} className="right-map-img"/>
-                    )
-                })}
-                
+                <Form />            
             </div>
         </React.Fragment>
     )

@@ -10,6 +10,20 @@
     bottom: 40px;
 }
 
+.card-box-flip {
+    width: 280px;
+    max-width: 280px;
+    height: 380px;
+    display: grid;
+    justify-items: center;
+    background-color: #1a80b6;
+    color: #fff;
+    text-align: center;
+    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .card-outer-container {
     width: 100vw;
     display: grid;
@@ -27,6 +41,7 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
     max-width: 1200px;
+    line-height: 24px;
 }
 
 .card-container {
@@ -45,14 +60,64 @@
     color: #fff;
     text-align: center;
     margin: 30px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-cover {
+    background-color: rgba(0, 0, 0, 0.829);
+    backdrop-filter: blur(5px);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 280px;
+    height: 380px;
+    position: absolute;
+    opacity: 1;
+    animation: fa-fade-in 1s 1;
+}
+
+#text-on-card-hover {
+    width: 85%;
+    position: relative;
+    top: 30px;
+}
+
+.learn-more-btn-2 {
+    background-color: #ffe07b;
+    outline: transparent;
+    border: transparent;
+    position: relative;
+    top: -40px;
+    width: 140px;
+    height: 40px;
+}
+
+@keyframes fa-fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+    0% {
+        opacity: 0;
+    }
 }
 
 #press-title {
     font-family: "Raleway", Sans-serif;
     font-size: 20px;
     font-weight: 500;
+}
+
+#press-title-1 {
+    background-color: #ffe07b;
+    outline: transparent;
+    border: transparent;
+    height: 40px;
+    width: 170px;
+    font-size: 18px;
 }
 
 #press-text {
@@ -68,9 +133,9 @@
 
 .left-card-backdrop {
     width: 900px;
-    border: 1px solid lightgray;
-    border-radius: 32px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    // border: 1px solid lightgray;
+    // border-radius: 32px;
+    // box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     background-color: #fff;
     display: grid;
     justify-items: center;
@@ -78,12 +143,15 @@
 
 .right-card-backdrop {
     width: 300px;
-    border: 1px solid lightgray;
-    border-radius: 32px;
+    border: 1px solid #5480b8;
+    height: 450px;
+    // border-radius: 32px;
+    margin-top: 50px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     background-color: #fff;
     display: grid;
     justify-items: center;
+    background-color: #5480b8;
 }
 
 .home-content {
@@ -104,7 +172,8 @@
 
 .contact-box {
     width: 250px;
-    height: 80%;
+    height: 300px;
+    background-color: #5480b8;
     display: grid;
     justify-items: center;
 }
@@ -117,6 +186,73 @@
     padding-bottom: 0px;
 }
 
+.right-map-img-2 {
+    width: 180px;
+    margin: 20px;
+
+}
+
 .info-text-right {
     width: 90%;
+}
+
+.order-container {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: grid;
+    justify-items: center;
+    height: 440px;
+    width: 100vw;
+    background-image: url('/img/yellow-house-garage.png');
+    color: #fff;
+}
+
+#truck-pic {
+    position: relative;
+    top: -70px;
+}
+
+.button-save-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 570px;
+    align-items: center;
+}
+
+.garage-24 {
+    width: 165px;
+}
+
+
+.button-telephone {
+    color: #000;
+    background: #fff url('/img/callnow.png') no-repeat;
+    border-radius: 100px;
+    padding: 8px 33px 8px 85px;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: 600;
+    background-position: left center;
+    margin: 10px;
+    display: inline-block;
+}
+
+.coupon-garage {
+    position: absolute;
+    right: 18vw;
+    top: 100px;
+}
+
+.garage-door-title {
+    padding-top: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.bottom-text-call {
+    font-size: 19px;
 }

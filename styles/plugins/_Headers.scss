@@ -5,7 +5,9 @@
     align-items: center;
     justify-items: center;
     color: rgb(231, 231, 231);
+    width: 100vw;
     padding-top: 30px;
+    margin-top: 90px;
 }
 
 #logo-home {
@@ -88,4 +90,30 @@
         position: relative;
         right: 0px;
     }
+}
+
+///Service Header
+
+.header-service-main,
+.service-section-one,
+#move-down-2 {
+    position: relative;
+    top: 85px;
+}
+
+.service-header {
+    width: 100vw;
+    background: url('/img/snow-house.png') no-repeat center;
+    background-size: cover;
+    height: 500px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.service-title {
+    font-size: 64px;
+    color: #fff;
+    position: relative;
+    top: 100px;
 }
