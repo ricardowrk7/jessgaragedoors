@@ -44,7 +44,7 @@ const ServiceInfo = () => {
                         <p className="description-service-text">We offer a large selection of affordable and durable garage doors, openers and accessories. As a result, we are the best choice in central ohio for top quality garage doors and openers.</p>
                         <div className="products-btn-container">
                             <button className="products-btn">
-                                View Our Products <i className="fa fa-arrow-right  arrow-btn" id="not-italic" />
+                                Our Services <i className="fa fa-arrow-right  arrow-btn" id="not-italic" />
                             </button>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const ServiceInfo = () => {
                         <p className="description-service-text">Ask our sales staff to help you find a solution to any of your specialized garage door needs. We Offer Insulated, high performance, fire-rated, loading dock doors and so much more.</p>
                         <div className="products-btn-container">
                             <button className="products-btn">
-                                View Our Products <i className="fa fa-arrow-right arrow-btn" id="not-italic" />
+                                Our Services <i className="fa fa-arrow-right arrow-btn" id="not-italic" />
                             </button>
                         </div>
                     </div>

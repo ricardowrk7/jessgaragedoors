@@ -63,3 +63,28 @@
     background-color: transparent;
     border: 2px solid #fff;
 }
+
+.service-box {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #000;
+    top: 70px;
+    width: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.link-text-color {
+    color: #333;
+    line-height: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.link-text-color:hover {
+    background-color: darkgray;
+}

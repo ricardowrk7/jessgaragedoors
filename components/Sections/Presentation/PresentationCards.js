@@ -37,15 +37,15 @@ const CardContainer = () => {
         <React.Fragment>
             {/* <Parallax blur={0} bgImage="/img/garage-large-zoom.png" bgImageAlt="the cat" strength={-600}> */}
             <div className="card-outer-container">
-            <div className="card-container">
-                {data.map((item, index) => {
-                    return (
-                        <div key={index} >
-                        <Cards data={item}/>
-                        </div>
-                    )
-                })}
-            </div>
+                <div className="card-container">
+                    {data.map((item, index) => {
+                        return (
+                            <div key={index} >
+                            <Cards data={item}/>
+                            </div>
+                        )
+                    })}
+                </div>
             </div>
             {/* </Parallax> */}
         </React.Fragment>

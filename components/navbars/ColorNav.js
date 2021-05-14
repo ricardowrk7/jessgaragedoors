@@ -1,9 +1,25 @@
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 const ColorNav = () => {
+    const [focus, setFocus] = useState(false);
     const router = useRouter();
+    const wrapperRef = useRef(null);
+
+    useEffect(() => {
+        function handleClickOutside(event) {
+            if (wrapperRef.current && !wrapperRef.current.contains(event.target)) {
+                setFocus(false);
+            }
+        }
+        // Bind the event listener
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            // Unbind the event listener on clean up
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, [wrapperRef]);
 
     return (
         <React.Fragment>
@@ -23,9 +39,15 @@ const ColorNav = () => {
                         <Link href="/about">
                             <li>ABOUT</li>
                         </Link>
-                        <Link href="/services">
-                            <li>SERVICES</li>
-                        </Link>
+                        <li onClick={() => setFocus('services')}>
+                            SERVICES <i className="fa fa-angle-down" id="not-italic" style={{color: '#fff'}}/>
+                            {focus === 'services' &&
+                                <div className="service-box" ref={wrapperRef}>
+                                    <Link href="/services/residential" className="link-text-color-width"><p className="link-text-color">Residential</p></Link>
+                                    <Link href="/services/commercial" className="link-text-color-width"><p className="link-text-color">Commercial</p></Link>
+                                </div>
+                            }
+                        </li>
                         <Link href="/contact">
                             <li>CONTACT</li>
                         </Link>
