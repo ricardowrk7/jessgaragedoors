@@ -300,6 +300,18 @@
     }
 }
 
+@media (max-width: 1221px) {
+    .right-card-backdrop {
+        display: none;
+    }
+    .content-inner-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 90%;
+        line-height: 24px;
+    }
+}
+
 @media (max-width: 1182px) {
     .coupon-garage {
         position: absolute;
@@ -348,6 +360,14 @@
     .brand-contain {
         position: relative;
         left: -40px;
+    }
+}
+
+
+
+@media (max-width: 989px) {
+    .left-card-backdrop {
+        width: 100%;
     }
 }
 
@@ -406,7 +426,14 @@
         position: relative;
         left: 0px;
     }
+    .home-content {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
 }
+
+
 
 @media (max-width: 568px) {
     .button-save-container {

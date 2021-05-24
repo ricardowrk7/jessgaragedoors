@@ -7,6 +7,8 @@ import CardSection from '../components/Sections/Presentation/PresentationCards';
 import ContentSection from '../components/Sections/Presentation/PresentationContent';
 import ServiceCall from '../components/Sections/ServiceCall';
 import BrandsCard from '../components/Sections/BrandsCard';
+import ContactForm from '../components/Contact/ContactForm';
+import GoogleReviews from '../components/sections/GoogleReviews';
 import ServiceInfo from '../components/Sections/ServiceInfo';
 import Footer from '../components/Footers/index';
 
@@ -72,7 +74,23 @@ export default function Home() {
         <BrandsCard />
         {/* <ContentSection cardContent={cardContent}/> */}
         <ServiceInfo /> 
+        <div className="service-section-two" id="secondary-section">
+        <div id='schedule-service'>
+        <div className="center-mobile-a">
+        <h2>Contact Us Now</h2>
+        <span >(614) 778-0235</span>
+        </div>
+        <ContactForm />
+        </div>
+        <div>
+        <h2 className="small-title-sa">Garage Door Repair Reviews</h2>
+        <p className="paragraph-text-2">Find out what our Commercial customers are saying about Jess Overhead Garage Doors! Read our reviews and discover why we are the best overhead garage door repair company in columbus, Ohio! Contact us now and get same day service!</p>
+        <GoogleReviews />
+        </div>
+        </div>
+        <div id="move-down-3">
         <Footer />
+        </div>
       </div>
     </div>
   )

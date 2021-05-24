@@ -112,6 +112,28 @@
     align-items: center;
 }
 
+.service-header-1 {
+    width: 100vw;
+    background: url('/img/columbus-garage-7.jpg') no-repeat center;
+    background-size: cover;
+    height: 500px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.service-header-2 {
+    width: 100vw;
+    background: url('/img/columbus-commercial-7.jpg') no-repeat center;
+    background-size: cover;
+    height: 500px;
+    display: grid;
+    justify-items: center;
+    position: relative;
+    
+    align-items: center;
+}
+
 .service-title {
     font-size: 64px;
     color: #fff;

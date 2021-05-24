@@ -38,8 +38,8 @@ const Blacklick = () => {
     return (
         <React.Fragment>
             <Head>
-            <title>Jess Garage Doors - ${city} | Home</title>
-            <meta name={`Jess Garage Doors - $${city}`} content={`Garage Door Repair in $${city}, Ohio - Same Day Service Guaranteed!`} />
+            <title>Jess Garage Doors - {city} | Home</title>
+            <meta name={`Jess Garage Doors - ${city}`} content={`Garage Door Repair in $${city}, Ohio - Same Day Service Guaranteed!`} />
             <link rel="icon" href="/favicon.ico" />
             </Head>
             <ServiceAreaComponent data={data} locations={locations}/>

@@ -7,6 +7,29 @@ const ColorNav = () => {
     const router = useRouter();
     const wrapperRef = useRef(null);
 
+    const menuItems = [
+        {
+            name: "Home",
+            link: '/'
+        },
+        // {
+        //     name: "About",
+        //     link: '/about'
+        // },
+        {
+            name: "Residential",
+            link: '/services/residential'
+        },
+        {
+            name: "Commercial",
+            link: '/services/commercial'
+        },
+        {
+            name: "Contact",
+            link: '/contact'
+        }
+    ]
+
     useEffect(() => {
         function handleClickOutside(event) {
             if (wrapperRef.current && !wrapperRef.current.contains(event.target)) {
@@ -52,8 +75,23 @@ const ColorNav = () => {
                             <li className="mobile-move">CONTACT</li>
                         </Link>
                     </ul>
-                    <div className="menu-bars">
+                    <div className="menu-bars" onClick={() => setFocus('mobile')}>
                         <i className="fa fa-bars" style={{fontStyle: 'normal'}} />
+                        {focus === 'mobile' &&
+                            <div className="mobile-menu" ref={wrapperRef}>
+                                {menuItems.map((item, index) => {
+                                    return (
+                                        <div key={index}>
+                                            <Link href={item.link}>
+                                            <div className="menu-item-box">
+                                            <p>{item.name}</p>
+                                            </div>
+                                            </Link>
+                                        </div>
+                                    )
+                                })}
+                            </div>
+                        }
                     </div>
                 </div>
                 </div>

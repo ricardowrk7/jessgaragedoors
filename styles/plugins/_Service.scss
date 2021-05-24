@@ -5,6 +5,19 @@
     margin: auto;
     color: #333;
 }
+.service-section-two {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    top: 150px;
+    color: #333;
+}
+
+#secondary-section {
+    top: 0px;
+}
 
 .service-left {
     display: grid;
@@ -113,6 +126,14 @@
     margin-bottom: 70px;
 }
 
+#schedule-service-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
 .map-container-1 {
     width: 600px;
     height: 350px;
@@ -121,6 +142,11 @@
 @media (max-width: 1411px) {
     .service-section-one {
         grid-template-columns: 3fr 1fr;
+        width: 100%;
+        overflow: hidden;
+    }
+    .service-section-two {
+        grid-template-columns: 1fr;
         width: 100%;
         overflow: hidden;
     }
@@ -149,10 +175,22 @@
         margin-left: 9%;
         padding-left: 0px;
     }
+    .service-section-two {
+        grid-template-columns:1fr;
+        justify-items: center;
+        width: 75%;
+        overflow: visible;
+        margin-left: 9%;
+        padding-left: 0px;
+    }
 }
 
 @media (max-width: 1091px) {
     .service-section-one {
+        width: 85%;
+        margin-left: 4%;
+    }
+    .service-section-two {
         width: 85%;
         margin-left: 4%;
     }
@@ -163,6 +201,13 @@
         width: 85%;
         margin-left: 1%;
     }
+    .service-section-two {
+        width: 85%;
+        margin-left: 1%;
+    }
+    .service-title {
+        font-size: 48px;
+    }
 }
 
 @media (max-width: 943px) {
@@ -170,6 +215,10 @@
         height: 180px;
     }
     .service-section-one {
+        width: 95%;
+        margin-left: 1%;
+    }
+    .service-section-two {
         width: 95%;
         margin-left: 1%;
     }
@@ -201,6 +250,15 @@
     #correct-this-ul{
         left: 0px;
     }
+    .service-title {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 684px) {
+    .service-title {
+        font-size: 43px;
+    }
 }
 
 @media (max-width: 671px) {
@@ -215,12 +273,16 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
+    #schedule-service-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
     .center-mobile-a {
         text-align: center;
         margin-bottom: 20px;
-    }
-    .service-title {
-        font-size: 46px;
     }
     .paragraph-text-2 {
         font-size: 16px;
@@ -231,10 +293,22 @@
     }
 }
 
+@media (max-width: 636px) {
+    .service-title {
+        font-size: 40px;
+    }
+}
+
 @media (max-width: 617px) {
     .map-container-1 {
         width: 400px;
         height: 250px;
+    }
+}
+
+@media (max-width: 580px) {
+    .service-title {
+        font-size: 36px;
     }
 }
 
@@ -249,6 +323,15 @@
     }
     .sa-title-2 {
         font-size: 24px;
+    }
+    .service-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 517px) {
+    #schedule-service-1 {
+        margin-top: -20px;
     }
 }
 
@@ -272,12 +355,10 @@
         width: 320px;
     }
     .service-section-one,
+    .service-section-two,
     .service-left {
         width: 100%;
         overflow: hidden;
-    }
-    .service-title {
-        font-size: 34px;
     }
     #container-commercial {
         margin-right: 0px;
@@ -321,6 +402,10 @@
         margin-right: 0px;
         margin-left: 0px;
     }
+    #schedule-service-1 {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
     .list-one-sa {
         font-size: 20px;
         line-height: 28px;
@@ -331,6 +416,17 @@
         overflow: hidden;
     }
 
+}
+
+@media (max-width: 375px) {
+    .service-title {
+        font-size: 32px;
+    }
+    #schedule-service-1 {
+        position: relative;
+        right: 20px;
+    }
+    
 }
 
 @media (max-width: 371px) {
@@ -368,6 +464,15 @@
     #commercial {
         position: relative;
         left: -15px
+    }
+    #schedule-service-1 {
+        position: relative;
+        right: 0px;
+        bottom: 50px;
+        margin: 0px;
+    }
+    .paragraph-text-4 {
+        width: 90%;
     }
 }
 @media(max-width: 300px) {
@@ -415,4 +520,20 @@
         position: relative;
         left: -20px;
     }
+    .paragraph-text-4 {
+        position: relative;
+        left: -15px;
+    }
+}
+
+@media (max-width: 280px) {
+    #schedule-service-1 {
+        right: 7px;
+    }
+    .paragraph-text-4 {
+        position: relative;
+        width: 88%;
+        left: -10px;
+    }
+
 }
