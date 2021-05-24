@@ -49,9 +49,12 @@ const ColorNav = () => {
                             }
                         </li>
                         <Link href="/contact">
-                            <li>CONTACT</li>
+                            <li className="mobile-move">CONTACT</li>
                         </Link>
                     </ul>
+                    <div className="menu-bars">
+                        <i className="fa fa-bars" style={{fontStyle: 'normal'}} />
+                    </div>
                 </div>
                 </div>
             </div>

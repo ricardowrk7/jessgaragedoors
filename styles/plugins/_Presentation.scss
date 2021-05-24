@@ -188,7 +188,7 @@
 }
 
 .right-map-img-2 {
-    width: 180px;
+    width: 10vw;
     margin: 20px;
 
 }
@@ -206,6 +206,7 @@
     height: 440px;
     width: 100vw;
     background-image: url('/img/yellow-house-garage.png');
+    background-position: center;
     color: #fff;
 }
 
@@ -276,6 +277,188 @@
     }
 }
 
-@media (max-width: 1495px) {
+@media (max-width: 1368px) {
+    .brands-inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        width: 75%;
+    }
+}
+
+@media (max-width: 1356px) {
+    .coupon-garage {
+        position: absolute;
+        right: 12vw;
+        top: 120px;
+    }
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 1182px) {
+    .coupon-garage {
+        position: absolute;
+        right: 9vw;
+        top: 120px;
+    } 
+    .brands-inner {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        justify-items: center;
+    }
+    .brand-contain {
+        max-width: 1000px;
+        width: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+    }
+    .right-map-img-2 {
+        width: 12vw;
+        margin: 10px;
+    }
+    
+}
+
+@media (max-width: 1090px) {
+    .coupon-garage {
+        position: absolute;
+        right: 5vw;
+        top: 120px;
+    } 
+    .button-save-container {
+        position: relative;
+        left: -40px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .garage-door-title {
+        font-size: 26px;
+    }
+    .bottom-text-call {
+        font-size: 16px;
+    }
+    .brand-contain {
+        position: relative;
+        left: -40px;
+    }
+}
+
+@media (max-width: 966px) {
+    .card-container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 902px) {
+    .coupon-garage {
+        display: none;
+    } 
+    .bottom-text-call {
+        text-align: center;
+    }
+}
+
+@media (max-width: 680px) {
+    .garage-door-title {
+        font-size: 23px;
+    }
+    .right-map-img-2 {
+        width: 13vw;
+        margin: 7px;
+        position: relative;
+        left: -10px;
+    }
+}
+
+@media (max-width: 675px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 606px) {
+    .garage-door-title {
+        font-size: 19px;
+    }
+    .button-save-container {
+        position: relative;
+        left: -0px;
+    }
+    .brand-contain {
+        display: grid;
+        width: 100vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .mobile-brands {
+        display: none;
+    }
+    .right-map-img-2 {
+        width: 14vw;
+        margin: 11px;
+        position: relative;
+        left: 0px;
+    }
+}
+
+@media (max-width: 568px) {
+    .button-save-container {
+        grid-template-columns: 1fr;
+        width: 280px;
+        display: grid;
+        justify-items: center;
+    }
+    .button-telephone {
+        height: 50px;
+        width: 280px;
+        font-size: 22px;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media (max-width: 504px) {
+    .garage-door-title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 465px) {
+    .right-map-img-2 {
+        width: 15vw;
+        margin: 7px;
+    }
+}
+
+@media (max-width: 420px) {
+    .garage-door-title,
+    .bottom-text-call {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 340px) {
+    .card-box {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .garage-door-title {
+        font-size: 11px;
+    }
+    .button-save-container {
+        position: relative;
+        left: -10px;
+    }
+}
+
+@media (max-width: 290px) {
 
 }

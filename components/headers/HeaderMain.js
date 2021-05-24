@@ -10,12 +10,14 @@ const Header = () => {
                     <p className="sublogo">Residential {'&'} Comercial Garage Doors</p>
                     </div>
                     <p className="subtitle-text">WITH A SIMPLE PHONE CALL, YOU'LL HAVE A TECHNICIAN AT YOUR HOME TO FIX ANY ISSUE WITH YOUR GARAGE DOOR.</p>
+                    <div className="mobile-fix-header">
                     <h5 className="below-subtitle">Same Day Quick {'&'} Local Services!</h5>
                     <div>
                         <p className="small-text">Contractor's License #000000</p>
                         <p className="small-text">Fully Licensed, Bonded {'&'} Insured</p>
                     </div>
                     <h6 className="garage-text">24/7 Garage Door Services</h6>
+                    </div>
                 </div>
                 <div className="header-right">
                     <ul id="header-bullets">

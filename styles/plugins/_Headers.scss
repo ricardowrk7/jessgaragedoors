@@ -118,3 +118,153 @@
     position: relative;
     top: 100px;
 }
+
+@media (max-width: 1102px) {
+    #header-bullets {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        margin: 40px;
+        margin-right: 10px;
+        line-height: 42px;
+    } 
+    #logo-home {
+        max-width: 400px;
+    }
+    .sublogo {
+        font-size: 18px;
+        margin-top: 10px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+    .subtitle-text {
+        font-size: 16px;
+        max-width: 450px;
+    }
+    .below-subtitle {
+        font-size: 26px;
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
+    #header-subtitle {
+        text-align: right;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 920px) {
+    #header-bullets {
+        display: none;
+    } 
+    #logo-home {
+        max-width: 350px;
+    }
+    .mobile-fix-header {
+        display: grid;
+        width: 90vw;
+        justify-items: right;
+    }
+    .sublogo {
+        font-size: 18px;
+        margin-top: 10px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+    .subtitle-text {
+        display: none;
+    }
+    .below-subtitle {
+        margin-top: 45px;
+        font-size: 26px;
+
+        margin-bottom: 10px;
+    }
+    #header-subtitle {
+        display: none;
+    }
+    .logo-box {
+        display: grid;
+        width: 40vw;
+        margin-left: 5vw;
+        justify-items: center;
+    }
+}
+
+@media (max-width: 722px) {
+    .logo-box {
+        display: grid;
+        width: 100vw;
+        justify-items: center;
+        position: relative;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        right: 20px;
+    }
+    .mobile-fix-header {
+        display: none;
+    }
+    #logo-home {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 650px) {
+    .below-header-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 460px) {
+    #logo-home {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 396px) {
+    #logo-home {
+        max-width: 350px;
+    }
+    .logo-box {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 392px) {
+    .below-header-text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 358px) {
+    #logo-home {
+        max-width: 280px;
+    }
+    .logo-box {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        right: 10px;
+    }
+    .sublogo {
+        font-size: 15px;
+        margin-top: 10px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 326px) {
+    .below-header-text {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 305px) {
+    .logo-box {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        right: 15px;
+    }
+}

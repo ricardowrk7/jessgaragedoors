@@ -170,10 +170,12 @@ export default function Home() {
         <ColorNav />
         <Header />
         <div className="contact-trio">
+            <div className="add-padding">
             <ContactCard />
+            </div>
             <ContactForm /> 
             <Link href="https://www.yelp.com/biz/jesss-overhead-garage-doors-pataskala-3">
-                <img className="yelp-img" src="/img/yelp.png" />
+                <img className="yelp-img" src="/img/yelp.png" className="yelp-img"/>
             </Link>
         </div>
         <div style={{width: '100vw', display: 'grid', justifyItems:'center'}}>

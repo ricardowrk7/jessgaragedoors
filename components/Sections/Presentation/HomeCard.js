@@ -1,5 +1,5 @@
 import React from 'react';
-import Testimonials from '../Testimonials';
+import GoogleReviews from '../GoogleReviews';
 
 const Home = ({cardContent}) => {
     return (
@@ -8,7 +8,7 @@ const Home = ({cardContent}) => {
                 {cardContent}
                 <h4>What Our Customers Are Saying About Us</h4>
                 <div className="testimonial-component">
-                    <Testimonials />
+                    <GoogleReviews />
                 </div>
             </div>
         </React.Fragment>

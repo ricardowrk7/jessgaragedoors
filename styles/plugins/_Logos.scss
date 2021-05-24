@@ -8,7 +8,14 @@
 
 .brands-inner {
     display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    width: 100%;
+}
+
+.brand-contain {
+    width: 75%;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
-    width: 75%;
 }

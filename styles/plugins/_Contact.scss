@@ -97,3 +97,119 @@
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
+@media (max-width: 1413px) {
+    .contact-trio {
+        grid-template-columns: 1fr 2fr 1fr;
+        width: 85%;
+        // display: block;
+        margin-left: 9%;
+        margin-right: 0%;
+    }
+}
+
+@media (max-width: 1181px) {
+    .contact-trio {
+        grid-template-columns: 1fr 2fr;
+        width: 85%;
+        // display: block;
+        margin-left: 9%;
+        margin-right: 0%;
+    }
+    .yelp-img {
+        display: none;
+    }
+}
+
+@media (max-width: 925px) {
+    .contact-trio {
+        grid-template-columns: 1fr;
+        width: 85%;
+        // display: block;
+        margin-left: 9%;
+        margin-right: 0%;
+    }
+}
+
+@media (max-width: 925px) {
+    .add-padding {
+        margin-bottom: 20px;
+    }
+    .contact-trio {
+        grid-template-columns: 1fr;
+        width: 85%;
+        margin-top: 30px;
+        margin-left: 9%;
+        margin-right: 0%;
+    }
+}
+
+@media (max-width: 409px) {
+    .card-container-contact {
+        width: 250px;
+        height: 250px;
+        border: 1px solid darkgray;
+        background-color: #fff;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .mobile-contact-box {
+        font-size: 20px;
+    }
+    .card-p-contact {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .card-contact-text {
+        height: 100px;
+        padding-left: 10px;
+    }
+    .icon-info {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        align-items: center;
+        height: 30px;
+    }
+    .edit-text-contact {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 371px) {
+    .contact-trio {
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin-top: 30px;
+        margin-left: 4%;
+        margin-right: 0%;
+    }
+}
+
+@media (max-width: 300px) {
+    .contact-trio {
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin-top: 30px;
+        margin-left: 10%;
+        margin-right: 0%;
+    }
+    .card-container-contact {
+        position: relative;
+        left: -25px;
+    }
+}
+
+@media (max-width: 280px) {
+    .contact-trio {
+        grid-template-columns: 1fr;
+        width: 95%;
+        margin-top: 30px;
+        margin-left: 9%;
+        margin-right: 0%;
+    }
+    .card-container-contact {
+        position: relative;
+        left: -25px;
+    }
+}
