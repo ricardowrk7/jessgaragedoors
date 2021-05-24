@@ -30,9 +30,6 @@ const ServiceAreaComponent = ({data, locations}) => {
                     <div className="below-service-header">
                         Garage Doors | Contact Us
                     </div>
-                    {/* <p className="paragraph-text-2">
-                        {data.paragraphOne}
-                    </p> */}
                     <div className="service-title-2">
                     <h1 className="sa-title-2">Garage Door Repair in {data.city}, OH</h1>
                     </div>

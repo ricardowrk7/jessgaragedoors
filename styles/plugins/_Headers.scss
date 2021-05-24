@@ -76,9 +76,12 @@
     align-items: center;
     color: #fff;
     font-size: 30px;
+    overflow: hidden;
 }
 
 .below-header-text {
+    min-width: 280px;
+    position: relative;
     animation: slide-in 2s 1;
 }
 
