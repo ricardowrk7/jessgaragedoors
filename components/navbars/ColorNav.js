@@ -30,6 +30,11 @@ const ColorNav = () => {
         }
     ]
 
+    const openMenu = (item) => {
+        console.log('open');
+        setFocus(item)
+    }
+
     useEffect(() => {
         function handleClickOutside(event) {
             if (wrapperRef.current && !wrapperRef.current.contains(event.target)) {
@@ -75,7 +80,7 @@ const ColorNav = () => {
                             <li className="mobile-move">CONTACT</li>
                         </Link>
                     </ul>
-                    <div className="menu-bars" onClick={() => setFocus('mobile')}>
+                    <div className="menu-bars" onClick={() => openMenu('mobile')}>
                         <i className="fa fa-bars" style={{fontStyle: 'normal'}} />
                         {focus === 'mobile' &&
                             <div className="mobile-menu" ref={wrapperRef}>
