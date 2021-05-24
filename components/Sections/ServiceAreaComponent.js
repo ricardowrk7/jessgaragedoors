@@ -11,6 +11,7 @@ const ServiceAreaComponent = ({data, locations}) => {
     const images = ["service-columbus-1.jpg", "service-columbus-2.jpg", "service-columbus-3.jpg"]
     return (
         <React.Fragment>
+            <div id="page-container-hide">
             <Nav />
             <Header city={data.city}/>
             <div className="service-section-one">
@@ -157,6 +158,7 @@ const ServiceAreaComponent = ({data, locations}) => {
             </div>
             <div id="move-down-2">
             <Footer />
+            </div>
             </div>
         </React.Fragment>
     )
