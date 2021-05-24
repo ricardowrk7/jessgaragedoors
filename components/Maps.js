@@ -25,9 +25,9 @@ const Maps = ({locations}) => {
                         zoom={11}
                         center={defaultCenter}
                         >
-        {locations.map(place => {
+        {locations.map((place, index) => {
           return (
-            <React.Fragment key={place.id}>
+            <React.Fragment key={index}>
               <Marker
                 position={{
                   lat: parseFloat(place.latitude),

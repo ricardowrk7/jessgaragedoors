@@ -80,7 +80,7 @@ const ColorNav = () => {
                             <li className="mobile-move">CONTACT</li>
                         </Link>
                     </ul>
-                    <div className="menu-bars" onClick={() => openMenu('mobile')}>
+                    <button className="menu-bars" onClick={() => openMenu('mobile')}>
                         <i className="fa fa-bars" style={{fontStyle: 'normal'}} />
                         {focus === 'mobile' &&
                             <div className="mobile-menu" ref={wrapperRef}>
@@ -97,7 +97,7 @@ const ColorNav = () => {
                                 })}
                             </div>
                         }
-                    </div>
+                    </button>
                 </div>
                 </div>
             </div>
