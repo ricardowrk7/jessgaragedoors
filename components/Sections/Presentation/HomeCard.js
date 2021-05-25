@@ -1,5 +1,5 @@
 import React from 'react';
-import GoogleReviews from '../GoogleReviews';
+import GoogleReviews from '../ReviewsGoogle';
 import ContactForm from '../../Contact/ContactForm';
 
 const Home = ({cardContent}) => {

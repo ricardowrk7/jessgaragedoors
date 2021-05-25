@@ -5,7 +5,7 @@ import CardSection from '../components/Sections/Presentation/PresentationCards';
 import ServiceCall from '../components/Sections/ServiceCall';
 import BrandsCard from '../components/Sections/BrandsCard';
 import ContactForm from '../components/Contact/ContactForm';
-import GoogleReviews from '../components/sections/GoogleReviews';
+import GoogleReviews from '../components/Sections/ReviewsGoogle';
 import ServiceInfo from '../components/Sections/ServiceInfo';
 import Footer from '../components/Footers/index';
 

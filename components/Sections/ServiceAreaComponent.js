@@ -4,7 +4,7 @@ import Footer from '../Footers/index';
 import Header from '../headers/HeaderTemplate';
 import ContactForm from '../Contact/ContactForm';
 import ContactCard from './Presentation/ContactCard';
-import GoogleReviews from './GoogleReviews';
+import GoogleReviews from './ReviewsGoogle';
 import Maps from '../SmallMaps';
 
 const ServiceAreaComponent = ({data, locations}) => {

@@ -3,7 +3,7 @@ import ColorNav from '../../components/navbars/ColorNav';
 import Header from '../../components/headers/HeaderServices';
 import Head from 'next/head';
 import ContactForm from '../../components/Contact/ContactForm';
-import GoogleReviews from '../../components/sections/GoogleReviews';
+import GoogleReviews from '../../components/Sections/ReviewsGoogle';
 import Footer from '../../components/Footers/index'
 
 const Residential = () => {
