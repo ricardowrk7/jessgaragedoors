@@ -425,6 +425,13 @@ html {
 
 }
 
+@media (max-width: 389px) {
+    .outer-contact-box {
+        position: relative;
+        left: -15px
+    }
+}
+
 @media (max-width: 375px) {
     .service-title {
         font-size: 32px;
@@ -433,7 +440,24 @@ html {
         position: relative;
         right: 20px;
     }
+    .outer-contact-box {
+        position: relative;
+        left: 0px
+    }
+    .test-tile-2 {
+        position: relative;
+        font-size: 18px;
+        left: -25px;
+        text-align: center;
+    }
     
+}
+
+@media (max-width: 371px) {
+    .outer-contact-box {
+        position: relative;
+        left: 25px
+    }
 }
 
 @media (max-width: 371px) {
@@ -458,6 +482,13 @@ html {
     }
 
 }
+@media(max-width: 361px) {
+    .test-tile-2 {
+        position: relative;
+        font-size: 17px;
+        left: -15px;
+    }
+}
 @media(max-width: 359px) {
     .service-title {
         font-size: 30px;
@@ -474,7 +505,7 @@ html {
     }
     #schedule-service-1 {
         position: relative;
-        right: 0px;
+        right: 20px;
         bottom: 50px;
         margin: 0px;
     }
@@ -486,6 +517,12 @@ html {
     .sa-title-2 {
         font-size: 15px;
         width: 100%;
+    }
+    #schedule-service-1 {
+        position: relative;
+        right: 0px;
+        bottom: 50px;
+        margin: 0px;
     }
     .paragraph-text-2 {
         font-size: 14px;
@@ -542,5 +579,11 @@ html {
         width: 88%;
         left: -10px;
     }
-
+    .test-tile-2 {
+        position: relative;
+        font-size: 16px;
+        left: -25px;
+        text-align: center;
+        max-width: 270px;
+    }
 }

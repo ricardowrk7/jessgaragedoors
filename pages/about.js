@@ -12,7 +12,7 @@ export default function About() {
 
     const cardContent = 
     <>
-        <h2>Who We Are – Jess Garage Doors</h2>
+        <h2 className="title-mobile">Who We Are – Jess Garage Doors</h2>
         <div className="img-side-by-side">
             <img src="/img/brown-door.png" className="side-img"/>
             <p className="paragraph-text-4">Established in 2008, Jess Garage Doors is a fully licensed, Columbus based garage door provider. We have been offering elite garage door services to the residents of Columbus for over 4 decades. We pay special focus on completing all our garage door repair jobs in less than no time and at reasonable rates. We specialize in garage door repair, garage door installation, garage door replacement, gate repair and replacement, garage door opener repair, garage door opener replacement, garage door spring repair, and other garage door services.</p>

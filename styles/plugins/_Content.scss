@@ -289,6 +289,20 @@
     }
 }
 
+@media (max-width: 414px) {
+    .mobile-paragraph-service {
+        position: relative;
+        left: -40px;
+    }
+}
+
+@media (max-width: 376px) {
+    .mobile-paragraph-service {
+        position: relative;
+        left: -40px;
+    }
+}
+
 @media (max-width: 357px) {
     .service-pic {
         width: 90vw;

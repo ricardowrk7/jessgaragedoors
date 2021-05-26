@@ -32,7 +32,7 @@
     border-radius: 8px;
     background-color: #fff;
     width: 140px;
-    height: 150px;
+    height: 210px;
     line-height: 15px;
     font-size: 18px;
     padding-left: 20px;
@@ -43,6 +43,12 @@
 .menu-item-box {
     margin: 0px;
     padding: 0px;
+    text-align: left;
+}
+
+.menu-padding {
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .menu-item-box:focus {

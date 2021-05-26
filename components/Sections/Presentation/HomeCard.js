@@ -14,7 +14,7 @@ const Home = ({cardContent}) => {
                     </div>
                     <ContactForm />
                 </div>
-                <h4>What Our Customers Are Saying About Us</h4>
+                <h4 className="test-tile-2">What Our Customers Are Saying About Us</h4>
                 <div className="testimonial-component">
                     <GoogleReviews />
                 </div>

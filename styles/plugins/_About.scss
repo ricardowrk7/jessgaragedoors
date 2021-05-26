@@ -89,7 +89,13 @@
     }
 }
 
-@media (max-width: 371px) {
+@media (max-width: 375px) {
+    .truckpic-container {
+        margin-left: -12%;
+    }
+}
+
+@media (max-width: 372px) {
     .truckpic-container {
         margin-left: -3%;
     }

@@ -12,10 +12,10 @@ const ColorNav = () => {
             name: "Home",
             link: '/'
         },
-        // {
-        //     name: "About",
-        //     link: '/about'
-        // },
+        {
+            name: "About",
+            link: '/about'
+        },
         {
             name: "Residential",
             link: '/services/residential'
@@ -89,7 +89,7 @@ const ColorNav = () => {
                                         <div key={index}>
                                             <Link href={item.link}>
                                             <div className="menu-item-box">
-                                            <p>{item.name}</p>
+                                            <p className="menu-padding">{item.name}</p>
                                             </div>
                                             </Link>
                                         </div>

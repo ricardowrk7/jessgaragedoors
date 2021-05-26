@@ -472,6 +472,14 @@
     }
 }
 
+@media (max-width: 375px) {
+    .title-mobile {
+        position: relative;
+        left: -15px;
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 340px) {
     .card-box {
         margin-right: 0px;
@@ -486,6 +494,22 @@
     }
 }
 
-@media (max-width: 290px) {
+@media (max-width: 320px) {
+    .title-mobile {
+        position: relative;
+        left: -10px;
+        font-size: 17px;
+    }
+}
 
+@media (max-width: 290px) {
+    .title-mobile {
+        position: relative;
+        left: -25px;
+        font-size: 17px;
+    }
+    .img-side-by-side {
+        position: relative;
+        left: -10px;
+    }
 }
