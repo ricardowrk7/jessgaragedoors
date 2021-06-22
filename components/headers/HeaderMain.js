@@ -13,7 +13,7 @@ const Header = () => {
                     <div className="mobile-fix-header">
                     <h5 className="below-subtitle">Same Day Quick {'&'} Local Services!</h5>
                     <div>
-                        <p className="small-text">Contractor's License #000000</p>
+                        <p className="small-text">Contractor's License #HIC02855</p>
                         <p className="small-text">Fully Licensed, Bonded {'&'} Insured</p>
                     </div>
                     <h6 className="garage-text">24/7 Garage Door Services</h6>
