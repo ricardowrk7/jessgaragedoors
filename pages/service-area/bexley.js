@@ -1,5 +1,6 @@
 import React from 'react';
 import ServiceAreaComponent from '../../components/Sections/ServiceAreaComponent';
+import Head from 'next/head';
 
 const Bexley = () => {
     const city = "Bexley"
@@ -37,6 +38,9 @@ const Bexley = () => {
 
     return (
         <React.Fragment>
+            <Head>
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+            </Head>
             <ServiceAreaComponent data={data} locations={locations}/>
         </React.Fragment>
     )

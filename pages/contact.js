@@ -163,6 +163,7 @@ export default function Home() {
       {/* className={styles.container} */}
       <Head>
         <title>Jess Garage Doors | Home</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <meta name="Get garage doors in columbus ohio" content="Get a quote" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

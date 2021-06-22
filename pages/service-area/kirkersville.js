@@ -41,6 +41,7 @@ const Kirkersville = () => {
             <title>Jess Garage Doors - {data.city} | Home</title>
             <meta name={`Jess Garage Doors - ${data.city}`} content={`Garage Door Repair in ${data.city}, Ohio - Same Day Service Guaranteed!`} />
             <link rel="icon" href="/favicon.ico" />
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
             </Head>
             <ServiceAreaComponent data={data} locations={locations}/>
         </React.Fragment>
