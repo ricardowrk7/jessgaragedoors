@@ -250,6 +250,12 @@
     }
 }
 
+@media (max-width: 414px) {
+    .below-header-text {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 396px) {
     #logo-home {
         max-width: 350px;
