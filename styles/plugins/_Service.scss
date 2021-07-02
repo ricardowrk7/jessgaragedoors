@@ -405,7 +405,7 @@ html {
         width: 300px;
         height: 220px;
     }
-    .schedule-service {
+    #schedule-service {
         margin-right: 0px;
         margin-left: 0px;
     }
@@ -425,24 +425,31 @@ html {
 
 }
 
+@media (max-width: 415px) {
+    #schedule-service {
+        position: relative;
+        left: -12px;
+    }
+}
+
 @media (max-width: 389px) {
     .outer-contact-box {
         position: relative;
         left: -15px
     }
+    #schedule-service {
+        position: relative;
+        left: 0px;
+    }
 }
 
 @media (max-width: 375px) {
     .service-title {
-        font-size: 32px;
+        font-size: 30px;
     }
     #schedule-service-1 {
         position: relative;
         right: 20px;
-    }
-    .outer-contact-box {
-        position: relative;
-        left: 0px
     }
     .test-tile-2 {
         position: relative;
@@ -456,7 +463,7 @@ html {
 @media (max-width: 371px) {
     .outer-contact-box {
         position: relative;
-        left: 25px
+        left: 0px
     }
 }
 
@@ -491,7 +498,7 @@ html {
 }
 @media(max-width: 359px) {
     .service-title {
-        font-size: 30px;
+        font-size: 26px;
     }
 }
 @media(max-width: 329px) {
@@ -585,5 +592,16 @@ html {
         left: -25px;
         text-align: center;
         max-width: 270px;
+    }
+    .service-title {
+        font-size: 22px;
+    }
+    .outer-contact-box{
+        left: -23px;
+    }
+    .center-mobile-a {
+        position: relative;
+        left: -30px;
+        top: -15px;
     }
 }
