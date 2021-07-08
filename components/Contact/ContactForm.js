@@ -70,7 +70,7 @@ const ContactForm = () => {
 
     return (
         <div className="outer-contact-box">
-            <h4 className="contact-title">Request A service</h4>
+            <p className="contact-title">Request A service</p>
             <form onSubmit={(e) => handleSubmit(e)}>
             <div className="form-row-1">
                 <div className="input-top">
@@ -79,9 +79,11 @@ const ContactForm = () => {
                         placeholder="Name" 
                         className="input-class"
                         value={name}
+                        label="name"
                         onFocus={handleFocus}
                         onChange={handleNameChange}
                         required
+                        id="name"
                         />
                 </div>
                 <div className="input-top">
@@ -90,6 +92,7 @@ const ContactForm = () => {
                         placeholder="Phone" 
                         className="input-class" 
                         value={number}
+                        label="phone"
                         onFocus={handleFocus}
                         onChange={handleNumberChange}
                         required
@@ -102,6 +105,7 @@ const ContactForm = () => {
                     placeholder="Email" 
                     className="input-class" 
                     value={email}
+                    label="email"
                     onFocus={handleFocus}
                     onChange={handleEmailChange}
                     required
@@ -112,6 +116,7 @@ const ContactForm = () => {
                     placeholder="Message" 
                     className="input-class" 
                     value={message}
+                    label="message"
                     onFocus={handleFocus}
                     onChange={handleMessageChange}
                     required
