@@ -36,7 +36,7 @@ export default function Home() {
                 Call us today for more information!
             </p>
             <div className="image-bullet-home">
-                <img src="/img/brown-door.png" className="home-image"/>
+                <img src="/img/brown-door.png"  alt="" className="home-image"/>
                 <div>
                     <h4>Why Choose Us?</h4>
                     <ul>

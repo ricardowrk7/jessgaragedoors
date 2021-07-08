@@ -176,7 +176,7 @@ export default function Home() {
             </div>
             <ContactForm /> 
             <Link href="https://www.yelp.com/biz/jesss-overhead-garage-doors-pataskala-3">
-                <img className="yelp-img" src="/img/yelp.png" className="yelp-img"/>
+                <img className="yelp-img" alt="" src="/img/yelp.png" className="yelp-img"/>
             </Link>
         </div>
         <div style={{width: '100vw', display: 'grid', justifyItems:'center'}}>
