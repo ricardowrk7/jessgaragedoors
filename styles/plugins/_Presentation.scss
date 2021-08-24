@@ -1,515 +1,514 @@
+/** @format */
+
 .img-box {
-    height: 200px;
-    width: 280px;
-    overflow: hidden;
+  height: 200px;
+  width: 280px;
+  overflow: hidden;
 }
 
 .card-img {
-    width: 100%;
-    position: relative;
-    bottom: 40px;
+  width: 100%;
+  position: relative;
+  bottom: 40px;
 }
 
 .card-box-flip {
-    width: 280px;
-    max-width: 280px;
-    height: 380px;
-    display: grid;
-    justify-items: center;
-    background-color: #1a80b6;
-    color: #fff;
-    text-align: center;
-    margin: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  width: 280px;
+  max-width: 280px;
+  height: 380px;
+  display: grid;
+  justify-items: center;
+  background-color: #1a80b6;
+  color: #fff;
+  text-align: center;
+  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .card-outer-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    background-color: #e5e5e5;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background-color: #e5e5e5;
 }
 
 .Content-container {
-    display: grid;
-    width: 100vw;
-    justify-items: center;
+  display: grid;
+  width: 100vw;
+  justify-items: center;
 }
 
 .content-inner-container {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
-    max-width: 1200px;
-    line-height: 24px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  max-width: 1200px;
+  line-height: 24px;
 }
 
 .card-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-items: center;
-    max-width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  max-width: 70%;
 }
 
 .card-box {
-    max-width: 280px;
-    height: 380px;
-    display: grid;
-    justify-items: center;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    margin: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  max-width: 280px;
+  height: 380px;
+  display: grid;
+  justify-items: center;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .card-cover {
-    background-color: rgba(0, 0, 0, 0.829);
-    backdrop-filter: blur(5px);
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    width: 280px;
-    height: 380px;
-    position: absolute;
-    opacity: 1;
-    animation: fa-fade-in 1s 1;
+  background-color: rgba(0, 0, 0, 0.829);
+  backdrop-filter: blur(5px);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  width: 280px;
+  height: 380px;
+  position: absolute;
+  opacity: 1;
+  animation: fa-fade-in 1s 1;
 }
 
 #text-on-card-hover {
-    width: 85%;
-    position: relative;
-    top: 30px;
+  width: 85%;
+  position: relative;
+  top: 30px;
 }
 
 .learn-more-btn-2 {
-    background-color: #ffe07b;
-    outline: transparent;
-    border: transparent;
-    position: relative;
-    top: -40px;
-    width: 140px;
-    height: 40px;
+  background-color: #ffe07b;
+  outline: transparent;
+  border: transparent;
+  position: relative;
+  top: -40px;
+  width: 140px;
+  height: 40px;
 }
 
 @keyframes fa-fade-in {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
 }
 
 #press-title {
-    font-family: "Raleway", Sans-serif;
-    font-size: 20px;
-    font-weight: 500;
+  font-family: 'Raleway', Sans-serif;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 #press-title-1 {
-    background-color: #ffe07b;
-    outline: transparent;
-    border: transparent;
-    height: 40px;
-    width: 170px;
-    font-size: 18px;
+  background-color: #ffe07b;
+  outline: transparent;
+  border: transparent;
+  height: 40px;
+  width: 170px;
+  font-size: 18px;
 }
 
 #press-text {
-    font-family: "Raleway", Sans-serif;
-    font-size: 15px;
-    color: #ffffff;
-    padding-bottom: 20px;
+  font-family: 'Raleway', Sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  padding-bottom: 20px;
 }
 
 .bottom-of-box {
-    width: 80%;
+  width: 80%;
 }
 
 .left-card-backdrop {
-    width: 900px;
-    // border: 1px solid lightgray;
-    // border-radius: 32px;
-    // box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-    background-color: #fff;
-    display: grid;
-    justify-items: center;
+  width: 900px;
+  // border: 1px solid lightgray;
+  // border-radius: 32px;
+  // box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  background-color: #fff;
+  display: grid;
+  justify-items: center;
 }
 
 .right-card-backdrop {
-    width: 300px;
-    border: 1px solid #5480b8;
-    height: 450px;
-    // border-radius: 32px;
-    margin-top: 50px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-    background-color: #fff;
-    display: grid;
-    justify-items: center;
-    background-color: #5480b8;
+  width: 300px;
+  border: 1px solid #5480b8;
+  height: 450px;
+  // border-radius: 32px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  display: grid;
+  justify-items: center;
+  background-color: #5480b8;
 }
 
 .home-content {
-    width: 90%;
-    display: grid;
-    justify-items: center;
+  width: 90%;
+  display: grid;
+  justify-items: center;
 }
 
 .image-bullet-home {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
 }
 
 .home-image {
-    width: 100%
+  width: 100%;
 }
 
 .contact-box {
-    width: 250px;
-    height: 300px;
-    background-color: #5480b8;
-    display: grid;
-    justify-items: center;
+  width: 250px;
+  height: 300px;
+  background-color: #5480b8;
+  display: grid;
+  justify-items: center;
 }
 
 .right-map-img {
-    max-width: 100%;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+  max-width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .right-map-img-2 {
-    width: 10vw;
-    margin: 20px;
-
+  width: 10vw;
+  margin: 20px;
 }
 
 .info-text-right {
-    width: 90%;
+  width: 90%;
 }
 
 .order-container {
-    position: relative;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    display: grid;
-    justify-items: center;
-    height: 440px;
-    width: 100vw;
-    background-image: url('/img/yellow-house-garage.png');
-    background-position: center;
-    color: #fff;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: grid;
+  justify-items: center;
+  height: 440px;
+  width: 100vw;
+  background-image: url('/img/yellow-house-garage.png');
+  background-position: center;
+  color: #fff;
 }
 
 #truck-pic {
-    position: relative;
-    top: -70px;
+  position: relative;
+  top: -70px;
 }
 
 .button-save-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    width: 570px;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 570px;
+  align-items: center;
 }
 
 .garage-24 {
-    width: 165px;
+  width: 165px;
 }
 
-
 .button-telephone {
-    color: #000;
-    background: #fff url('/img/callnow.png') no-repeat;
-    border-radius: 100px;
-    padding: 8px 33px 8px 85px;
-    font-size: 35px;
-    font-family: Arial;
-    font-weight: 600;
-    background-position: left center;
-    margin: 10px;
-    display: inline-block;
+  color: #000;
+  background: #fff url('/img/callnow.png') no-repeat;
+  border-radius: 100px;
+  padding: 8px 33px 8px 85px;
+  font-size: 35px;
+  font-family: Arial;
+  font-weight: 600;
+  background-position: left center;
+  margin: 10px;
+  display: inline-block;
 }
 
 .coupon-garage {
-    position: absolute;
-    right: 18vw;
-    top: 100px;
+  position: absolute;
+  right: 18vw;
+  top: 100px;
 }
 
 .garage-door-title {
-    padding-top: 40px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    font-size: 35px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+  padding-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
 .bottom-text-call {
-    font-size: 19px;
+  font-size: 19px;
 }
 
 @media (max-width: 1911px) {
-    .card-container {
-        max-width: 80%;
-    }
+  .card-container {
+    max-width: 80%;
+  }
 }
 
 @media (max-width: 1684px) {
-    .card-container {
-        max-width: 90%;
-    }
+  .card-container {
+    max-width: 90%;
+  }
 }
 
 @media (max-width: 1495px) {
-    .card-container {
-        max-width: 100%;
-    }
+  .card-container {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 1368px) {
-    .brands-inner {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        align-items: center;
-        width: 75%;
-    }
+  .brands-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 75%;
+  }
 }
 
 @media (max-width: 1356px) {
-    .coupon-garage {
-        position: absolute;
-        right: 12vw;
-        top: 120px;
-    }
-    .card-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-        max-width: 70%;
-    }
+  .coupon-garage {
+    position: absolute;
+    right: 12vw;
+    top: 120px;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    max-width: 70%;
+  }
 }
 
 @media (max-width: 1221px) {
-    .right-card-backdrop {
-        display: none;
-    }
-    .content-inner-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        max-width: 90%;
-        line-height: 24px;
-    }
+  .right-card-backdrop {
+    display: none;
+  }
+  .content-inner-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 90%;
+    line-height: 24px;
+  }
 }
 
 @media (max-width: 1182px) {
-    .coupon-garage {
-        position: absolute;
-        right: 9vw;
-        top: 120px;
-    } 
-    .brands-inner {
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-        justify-items: center;
-    }
-    .brand-contain {
-        max-width: 1000px;
-        width: 1000px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        align-items: center;
-    }
-    .right-map-img-2 {
-        width: 12vw;
-        margin: 10px;
-    }
-    
+  .coupon-garage {
+    position: absolute;
+    right: 9vw;
+    top: 120px;
+  }
+  .brands-inner {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    justify-items: center;
+  }
+  .brand-contain {
+    max-width: 1000px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+  }
+  .right-map-img-2 {
+    width: 12vw;
+    margin: 10px;
+  }
 }
 
 @media (max-width: 1090px) {
-    .coupon-garage {
-        position: absolute;
-        right: 5vw;
-        top: 120px;
-    } 
-    .button-save-container {
-        position: relative;
-        left: -40px;
-    }
+  .coupon-garage {
+    position: absolute;
+    right: 5vw;
+    top: 120px;
+  }
+  .button-save-container {
+    position: relative;
+    left: -40px;
+  }
 }
 
 @media (max-width: 1050px) {
-    .garage-door-title {
-        font-size: 26px;
-    }
-    .bottom-text-call {
-        font-size: 16px;
-    }
-    .brand-contain {
-        position: relative;
-        left: -40px;
-    }
+  .garage-door-title {
+    font-size: 26px;
+  }
+  .bottom-text-call {
+    font-size: 16px;
+  }
+  .brand-contain {
+    position: relative;
+    left: -40px;
+  }
 }
 
-
-
 @media (max-width: 989px) {
-    .left-card-backdrop {
-        width: 100%;
-    }
+  .left-card-backdrop {
+    width: 100%;
+  }
 }
 
 @media (max-width: 966px) {
-    .card-container {
-        max-width: 100%;
-    }
+  .card-container {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 902px) {
-    .coupon-garage {
-        display: none;
-    } 
-    .bottom-text-call {
-        text-align: center;
-    }
+  .coupon-garage {
+    display: none;
+  }
+  .bottom-text-call {
+    text-align: center;
+  }
 }
 
 @media (max-width: 680px) {
-    .garage-door-title {
-        font-size: 23px;
-    }
-    .right-map-img-2 {
-        width: 13vw;
-        margin: 7px;
-        position: relative;
-        left: -10px;
-    }
+  .garage-door-title {
+    font-size: 23px;
+  }
+  .right-map-img-2 {
+    width: 13vw;
+    margin: 7px;
+    position: relative;
+    left: -10px;
+  }
 }
 
 @media (max-width: 675px) {
-    .card-container {
-        grid-template-columns: 1fr;
-    }
+  .card-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 606px) {
-    .garage-door-title {
-        font-size: 19px;
-    }
-    .button-save-container {
-        position: relative;
-        left: -0px;
-    }
-    .brand-contain {
-        display: grid;
-        width: 100vw;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    .mobile-brands {
-        display: none;
-    }
-    .right-map-img-2 {
-        width: 14vw;
-        margin: 11px;
-        position: relative;
-        left: 0px;
-    }
-    .home-content {
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-    }
+  .garage-door-title {
+    font-size: 19px;
+  }
+  .button-save-container {
+    position: relative;
+    left: -0px;
+  }
+  .brand-contain {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .mobile-brands {
+    display: none;
+  }
+  .right-map-img-2 {
+    width: 14vw;
+    margin: 11px;
+    position: relative;
+    left: 0px;
+  }
+  .home-content {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
 }
 
-
-
 @media (max-width: 568px) {
-    .button-save-container {
-        grid-template-columns: 1fr;
-        width: 280px;
-        display: grid;
-        justify-items: center;
-    }
-    .button-telephone {
-        height: 50px;
-        width: 280px;
-        font-size: 22px;
-        display: grid;
-        align-items: center;
-        justify-items: center;
-    }
+  .button-save-container {
+    grid-template-columns: 1fr;
+    width: 280px;
+    display: grid;
+    justify-items: center;
+  }
+  .button-telephone {
+    height: 50px;
+    width: 280px;
+    font-size: 22px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
 }
 
 @media (max-width: 504px) {
-    .garage-door-title {
-        font-size: 16px;
-    }
+  .garage-door-title {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 465px) {
-    .right-map-img-2 {
-        width: 15vw;
-        margin: 7px;
-    }
+  .right-map-img-2 {
+    width: 15vw;
+    margin: 7px;
+  }
 }
 
 @media (max-width: 420px) {
-    .garage-door-title,
-    .bottom-text-call {
-        font-size: 13px;
-    }
+  .garage-door-title,
+  .bottom-text-call {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 375px) {
-    .title-mobile {
-        position: relative;
-        left: -15px;
-        font-size: 20px;
-    }
+  .title-mobile {
+    position: relative;
+    left: -15px;
+    font-size: 20px;
+  }
+  .img-side-by-side {
+    position: relative;
+    left: -20px;
+  }
 }
 
 @media (max-width: 340px) {
-    .card-box {
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-    .garage-door-title {
-        font-size: 11px;
-    }
-    .button-save-container {
-        position: relative;
-        left: -10px;
-    }
+  .card-box {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .garage-door-title {
+    font-size: 11px;
+  }
+  .button-save-container {
+    position: relative;
+    left: -10px;
+  }
 }
 
 @media (max-width: 320px) {
-    .title-mobile {
-        position: relative;
-        left: -10px;
-        font-size: 17px;
-    }
+  .title-mobile {
+    position: relative;
+    left: -10px;
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 290px) {
-    .title-mobile {
-        position: relative;
-        left: -25px;
-        font-size: 17px;
-    }
-    .img-side-by-side {
-        position: relative;
-        left: -10px;
-    }
+  .title-mobile {
+    position: relative;
+    left: -25px;
+    font-size: 17px;
+  }
+  .img-side-by-side {
+    position: relative;
+    left: -10px;
+  }
 }
