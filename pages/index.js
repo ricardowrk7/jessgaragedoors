@@ -86,8 +86,10 @@ export default function Home() {
         <GoogleReviews />
         </div>
         </div>
+        <a id="href2" target="_blank" href="http://www.2findlocal.com/b/12460751"><img className="anchorImage" alt="jess's overhead garage doors" src="http://www.2findlocal.com/Set/Icons/2.png"/></a><a target="_blank" href="http://taxihowmuch.com"><img alt="taxi fare" src="http://www.2findlocal.com/Set/Icons/u.png"/></a><a id="href3" target="_blank" href="http://go.favecentral.com/12460751"><img className="anchorImage" alt="jess's overhead garage doors" src="http://www.2findlocal.com/Set/Icons/f.png"/></a>
         <div id="move-down-3">
         <Footer />
+
         </div>
       </div>
     </div>
