@@ -81,7 +81,7 @@ const ColorNav = () => {
                         </Link>
                     </ul>
                     <button className="menu-bars" aria-label="menu" onClick={() => openMenu('mobile')}>
-                        <i className="fa fa-bars" style={{fontStyle: 'normal'}} />
+                        <i className="fa fa-bars" style={{fontStyle: 'normal', margin: 'auto'}} />
                         {focus === 'mobile' &&
                             <div className="mobile-menu" ref={wrapperRef}>
                                 {menuItems.map((item, index) => {
