@@ -1,0 +1,31 @@
+{
+    "short_name": "Jess Garage Doors",
+    "name": "Jess Overhead Garage Doors",
+    "icons": [
+      {
+        "src": "/img/logo-icon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/img/logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#fff",
+    "shortcuts": [
+      {
+        "name": "Contact Us",
+        "short_name": "Contact",
+        "description": "Inquire about garage door services",
+        "url": "/contact?source=pwa",
+        "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+      }
+    ],
+    "description": "Garage door installation and repair"
+  }
