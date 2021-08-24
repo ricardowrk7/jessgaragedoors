@@ -1,6 +1,5 @@
 import React from 'react';
 import { GoogleMap, LoadScript, Marker, Circle } from '@react-google-maps/api';
-import keys from '../config/keys';
 
 const Maps = ({locations}) => {
 
@@ -18,7 +17,7 @@ const Maps = ({locations}) => {
     return (
         <React.Fragment>
             <LoadScript
-                googleMapsApiKey= {keys.googleMapsApiKey}>
+                googleMapsApiKey= {process.env.GOOGLE_MAPS_API_KEY}>
                     <div className="map-container">
                         <GoogleMap
                         mapContainerStyle={mapStyles}

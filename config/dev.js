@@ -1,2 +1,2 @@
-googleMapsApiKey='AIzaSyBqshmMxhnTm-zGEkX2xVWAgygXG0xVERw';
+googleMapsApiKey='AIzaSyBG62F63b6SFljIiVQ1yfWXlWBBEHtWUTI';
 googlePassword= 'Myfirst1';
