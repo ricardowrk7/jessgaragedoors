@@ -6,6 +6,7 @@
 .pnp.js
 /dev.js
 /dev
+.env
 
 # testing
 /coverage
