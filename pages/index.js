@@ -67,9 +67,9 @@ export default function Home() {
       <div className="Page-container">
         <ColorNav />
         <Header />
-        <CardSection />
-        <ServiceCall />
         <BrandsCard />
+        <ServiceCall />
+        <CardSection />
         {/* <ContentSection cardContent={cardContent}/> */}
         <ServiceInfo /> 
         <div className="service-section-two" id="secondary-section">
