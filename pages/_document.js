@@ -35,14 +35,15 @@ export default class MyDocument extends Document {
           <script
             dangerouslySetInnerHTML={{
               __html: `
-              <script async src="https://www.googletagmanager.com/gtag/js?id=UA-182959161-1">
-              </script>
+              <!-- Global site tag (gtag.js) - Google Analytics -->
+              <script async src="https://www.googletagmanager.com/gtag/js?id=${process.env.GA_TRACKING_ID}"></script>
               <script>
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
               
                 gtag('config', '${process.env.GA_TRACKING_ID}');
+              </script> 
           `,
             }}
           />
