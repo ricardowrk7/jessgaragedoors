@@ -7,6 +7,7 @@ import BrandsCard from '../components/Sections/BrandsCard';
 import ContactForm from '../components/Contact/ContactForm';
 import GoogleReviews from '../components/Sections/ReviewsGoogle';
 import ServiceInfo from '../components/Sections/ServiceInfo';
+import SEO from '../components/SEO';
 import Footer from '../components/Footers/index';
 
 
@@ -59,11 +60,12 @@ export default function Home() {
     <div >
       {/* className={styles.container} */}
       <Head>
-        <title>Jess Garage Doors | Home</title>
+        <title></title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-        <meta name="Get garage doors in columbus ohio" content="Get a quote" />
+        <meta name="" content="Get a quote" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <SEO title="Jess Garage Doors | Home" description="Get garage doors in columbus ohio" />
       <div className="Page-container">
         <ColorNav />
         <Header />
