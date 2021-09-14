@@ -6,7 +6,7 @@ const SEO = ({title, description}) => {
         <NextSeo
         title={title}
         description={description}
-        canonical="https://www.canonical.ie/"
+        canonical="https://jessoverheadgaragedoors.com/"
         openGraph={{
           url: 'https://jessoverheadgaragedoors.com/',
           title: `${title}`,
