@@ -39,7 +39,7 @@ const ServiceInfo = () => {
                 <div className="residential-section">
                     <img src="/img/house-garage.png" alt="Residential Garage" title="Residential Garage" className="service-pic"/>
                     <div className="service-right-section">
-                        <h1 className="residential-title">Residential Garage Door Services</h1>
+                        <h2 className="residential-title">Residential Garage Door Services</h2>
                         <p className="description-service-text">For over 4 decades - The Professionals at Jess Overhead Garage Doors have been providing Columbus and the surrounding comunity with best in class garage door repair and installation services.</p>
                         <p className="description-service-text">We offer a large selection of affordable and durable garage doors, openers and accessories. As a result, we are the best choice in central ohio for top quality garage doors and openers.</p>
                         <div className="products-btn-container">
@@ -62,7 +62,7 @@ const ServiceInfo = () => {
                 <div className="residential-section">
                     <img src="/img/comercial-garage.png" alt="Residential Garage 2" title="Residential Garage 2" className="service-pic"/>
                     <div className="service-right-section">
-                        <h1 className="residential-title">Commercial Garage Door Services</h1>
+                        <h2 className="residential-title">Commercial Garage Door Services</h2>
                         <p className="description-service-text">At Jess garage doors we pride ourselves on being able to provide our clients with garage door solutions that meet their need. We offer the largest variety of custom garage doors in central columbus in a wide tange of sizes and varieties.</p>
                         <p className="description-service-text">Ask our sales staff to help you find a solution to any of your specialized garage door needs. We Offer Insulated, high performance, fire-rated, loading dock doors and so much more.</p>
                         <div className="products-btn-container">
