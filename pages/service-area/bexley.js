@@ -40,6 +40,9 @@ const Bexley = () => {
         <React.Fragment>
             <Head>
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+            <meta name="keywords" content={`${city} garage doors, garage doors near ${city}, commercial garage doors ${city}`} />
+            <title>Jess Garage Doors - {city} | Services</title>
+            <meta name="description" content={`We provide affordable same day garage door repair service in ${city}, Ohio.`}></meta>
             </Head>
             <ServiceAreaComponent data={data} locations={locations}/>
         </React.Fragment>

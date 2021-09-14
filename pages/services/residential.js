@@ -13,7 +13,7 @@ const Residential = () => {
                 {/* className={styles.container} */}
                 <Head>
                     <title>Jess Garage Doors - Residential | Home</title>
-                    <meta name="Jess Garage Doors - Residential " content={`Residential Garage Door Repair - Same Day Service Guaranteed!`} />
+                    <meta name="description" content={`Residential Garage Door Repair - Same Day Service Guaranteed!`} />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
                 <div className="Page-container-1">
@@ -33,7 +33,7 @@ const Residential = () => {
                         We provide affordable same day garage door repair service in Columbus, Ohio. We specialize in both residential and commercial garage door repair. Our technicians are highly trained to provide service and repair of many different garage door brands and styles.
                     </p>
                     <div id='residential'>
-                    <h3>Residential Garage Door Repair Services</h3>
+                    <h1>Residential Garage Door Repair Services</h1>
                     <div className="image-service-center">
                         <div className="service-img-box">
                         <img src="/img/service-3.jpg" alt="service-image" className="img-in-box"/>

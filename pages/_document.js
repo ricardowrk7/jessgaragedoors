@@ -6,6 +6,9 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="Garage Doors, Jess Garage Doors, Garage Doors Near Me, Commercial Garage Doors, Residential Garage Doors, Springs, Garage Door Repair" />
+        <meta charSet="utf-8" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         <link rel="icon" href="/favicon.ico" />
                   {/* <!-- link manifest.json --> */}

@@ -39,8 +39,9 @@ const Columbus = () => {
     return (
         <React.Fragment>
             <Head>
-            <title>Jess Garage Doors - {data.city} | Home</title>
-            <meta name={`Jess Garage Doors - ${data.city}`} content={`Garage Door Repair in ${data.city}, Ohio - Same Day Service Guaranteed!`} />
+            <title>Jess Garage Doors - {city} | Services</title>
+            <meta name="keywords" content={`${city} garage doors, garage doors near ${city}, commercial garage doors ${city}`} />
+            <meta name="description" content={`Garage Door Repair in ${city}, Ohio - Same Day Service Guaranteed!`} />
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
             <link rel="icon" href="/favicon.ico" />
             </Head>

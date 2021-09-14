@@ -13,7 +13,7 @@ const Commercial = () => {
                     {/* className={styles.container} */}
                     <Head>
                         <title>Jess Garage Doors - Commercial | Home</title>
-                        <meta name="Jess Garage Doors - Commercial " content={`Commercial Garage Door Repair - Same Day Service Guaranteed!`} />
+                        <meta name="description" content={`Commercial Garage Door Repair - Same Day Service Guaranteed!`} />
                         <link rel="icon" href="/favicon.ico" />
                     </Head>
                     <div className="Page-container-1">
@@ -21,7 +21,7 @@ const Commercial = () => {
                         <Header />
                     <div className="service-section-two">
                     <div id='commercial'>
-                    <h3 className="small-title-sa">Commercial Garage Door Service</h3>
+                    <h1 className="small-title-sa">Commercial Garage Door Service</h1>
                     <p className="paragraph-text-2">Jess Overhead Garage Doors provides experienced sales and service of commercial garage doors for local businesses in Columbus, OH. We have decades of experience, and our expert garage door technicians will be able to get your company the exact type of doors that will work best with your facility.</p>
                     </div>
                     <h4>Emergency Commercial Garage Door Repair</h4>

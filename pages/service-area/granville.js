@@ -40,9 +40,10 @@ const Granville = () => {
         <React.Fragment>
             <div style={{width: '100vw', overflowX: 'hidden'}}>
             <Head>
-            <title>Jess Garage Doors - {data.city} | Home</title>
+            <title>Jess Garage Doors - {city} | Services</title>
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-            <meta name={`Jess Garage Doors - ${data.city}`} content={`Garage Door Repair in ${data.city}, Ohio - Same Day Service Guaranteed!`} />
+            <meta name="description" content={`Garage Door Repair in ${city}, Ohio - Same Day Service Guaranteed!`} />
+            <meta name="keywords" content={`${city} garage doors, garage doors near ${city}, commercial garage doors ${city}`} />
             <link rel="icon" href="/favicon.ico" />
             </Head>
 

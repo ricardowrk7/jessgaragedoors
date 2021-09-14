@@ -60,9 +60,9 @@ export default function Home() {
     <div >
       {/* className={styles.container} */}
       <Head>
-        <title></title>
+        <title>Jess Garage Doors | Home</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-        <meta name="" content="Get a quote" />
+        <meta name="description" content="For over 4 decades - The Professionals at Jess Overhead Garage Doors have been providing Columbus and the surrounding comunity with best in class garage doors" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SEO title="Jess Garage Doors | Home" description="Get garage doors in columbus ohio" />

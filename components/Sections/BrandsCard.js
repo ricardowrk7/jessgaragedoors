@@ -7,7 +7,7 @@ const BrandsCard = () => {
     return (
         <div className="brands-container">
             <div className="title-brands">
-                <h1>Only The Best Industry Standard Partners</h1>
+                <h2>Only The Best Industry Standard Partners</h2>
                 <div className="short-blue"> </div>
                 <p className="tiny-brand-text">We use only the top rated brands with a history of providing our customers the best product possible. </p>
             </div>

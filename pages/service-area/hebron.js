@@ -40,8 +40,9 @@ const Hebron = () => {
     return (
         <React.Fragment>
             <Head>
-            <title>Jess Garage Doors - {data.city} | Home</title>
-            <meta name={`Jess Garage Doors - ${data.city}`} content={`Garage Door Repair in ${data.city}, Ohio - Same Day Service Guaranteed!`} />
+            <title>Jess Garage Doors - {data.city} | Services</title>
+            <meta name="description" content={`Garage Door Repair in ${data.city}, Ohio - Same Day Service Guaranteed!`} />
+            <meta name="keywords" content={`${city} garage doors, garage doors near ${city}, commercial garage doors ${city}`} />
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
             <link rel="icon" href="/favicon.ico" />
             </Head>

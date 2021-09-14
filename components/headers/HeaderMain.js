@@ -29,7 +29,7 @@ const Header = () => {
                         <li>OPENER LIGHT IS BLINKING?</li>
                         <li>NEED A NEW GARAGE DOOR?</li>
                     </ul>
-                    <h1 id="header-subtitle">WE DO IT ALL!!!</h1>
+                    <h2 id="header-subtitle">WE DO IT ALL!!!</h2>
                 </div>
             </div>
             <div className="below-header">

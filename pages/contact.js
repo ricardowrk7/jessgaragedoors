@@ -162,14 +162,15 @@ export default function Home() {
     <div >
       {/* className={styles.container} */}
       <Head>
-        <title>Jess Garage Doors | Home</title>
+        <title>Jess Garage Doors | Contact</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-        <meta name="Get garage doors in columbus ohio" content="Get a quote" />
+        <meta name="description" content="Get a quote for your new garage doors today. Fill out the contact form below" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="Page-container">
         <ColorNav />
         <Header />
+        <h1 style={{width: '70%', margin: 'auto', paddingTop: '20px'}} className="contact-title">Contact Us</h1>
         <div className="contact-trio">
             <div className="add-padding">
             <ContactCard />
