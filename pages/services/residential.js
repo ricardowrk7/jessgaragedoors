@@ -36,7 +36,7 @@ const Residential = () => {
                     <h1>Residential Garage Door Repair Services</h1>
                     <div className="image-service-center">
                         <div className="service-img-box">
-                        <img src="/img/service-3.jpg" alt="service-image" className="img-in-box"/>
+                        <img src="/img/service-3.jpg" alt="service-image" className="img-in-box" title="service image"/>
                         </div>
                         <ul className="list-one-sa">
                             <li>Broken overhead garage door springs</li>

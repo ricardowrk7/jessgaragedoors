@@ -37,7 +37,7 @@ const ServiceInfo = () => {
         <React.Fragment>
             <div className="Service-section">
                 <div className="residential-section">
-                    <img src="/img/house-garage.png" alt="Residential Garage" className="service-pic"/>
+                    <img src="/img/house-garage.png" alt="Residential Garage" title="Residential Garage" className="service-pic"/>
                     <div className="service-right-section">
                         <h1 className="residential-title">Residential Garage Door Services</h1>
                         <p className="description-service-text">For over 4 decades - The Professionals at Jess Overhead Garage Doors have been providing Columbus and the surrounding comunity with best in class garage door repair and installation services.</p>
@@ -60,7 +60,7 @@ const ServiceInfo = () => {
                     })}
                 </div>
                 <div className="residential-section">
-                    <img src="/img/comercial-garage.png" alt="Residential Garage" className="service-pic"/>
+                    <img src="/img/comercial-garage.png" alt="Residential Garage 2" title="Residential Garage 2" className="service-pic"/>
                     <div className="service-right-section">
                         <h1 className="residential-title">Commercial Garage Door Services</h1>
                         <p className="description-service-text">At Jess garage doors we pride ourselves on being able to provide our clients with garage door solutions that meet their need. We offer the largest variety of custom garage doors in central columbus in a wide tange of sizes and varieties.</p>

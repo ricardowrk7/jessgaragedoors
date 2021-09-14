@@ -130,7 +130,7 @@ const Google = () => {
                         {index < 4 &&
 
                         <div className="review-boxes">
-                        <img src="/img/google-icon.png" alt="google" className="google-box"/>
+                        <img src="/img/google-icon.png" alt="google" title="google reviews" className="google-box"/>
                         <p>
                             {item.content}
                         </p>

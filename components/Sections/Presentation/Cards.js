@@ -18,7 +18,7 @@ const Cards = ({data}) => {
         <React.Fragment>
             <div className="card-box" onMouseEnter={handleEnter}>
                 <div className="img-box">
-                <img src={`/img/${data.image}`}  alt="" className="card-img" />
+                <img src={`/img/${data.image}`}  alt="card-image" title="card-image" className="card-img" />
                 </div>
                 <div className="bottom-of-box">
                     <h4 id="press-title">{data.title}</h4>

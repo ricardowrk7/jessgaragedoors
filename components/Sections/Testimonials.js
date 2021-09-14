@@ -71,7 +71,8 @@ function Item({item})
           </div>
         <div className=" card-avatar">
           <img
-            alt="..."
+            alt="avatar"
+            title="avatar"
             className=" img-icon"
             src={item.image}
           ></img>

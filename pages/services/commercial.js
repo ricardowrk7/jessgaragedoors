@@ -28,7 +28,7 @@ const Commercial = () => {
                     <p className="paragraph-text-2">Does your business need emergency garage door service? For over 40 years, Jess Overhead Garage Doors has provided experienced commercial garage door service for many types of businesses in Columbus, Ohio. Contact us now and schedule emergency garage door repair! We have worked with many different types of businesses in Columbus, Ohio!</p>
                     <div className="image-service-center" id="container-commercial">
                         <div className="service-img-box">
-                            <img src="/img/commercial-1.jpg" alt="commercial" className="img-in-box-1"/>
+                            <img src="/img/commercial-1.jpg" alt="commercial" title="commercial" className="img-in-box-1"/>
                         </div>
                     <ul className="list-one-sa" id="correct-this-ul">
                         <li>Warehouses</li>

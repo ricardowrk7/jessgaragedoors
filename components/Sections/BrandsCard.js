@@ -15,7 +15,7 @@ const BrandsCard = () => {
                 <div className="brand-contain">
                     {Images.map((item, index) => {
                         return (
-                            <img src={`/img/${item}`}  alt="" key={index} className={index > 4 ? "right-map-img-2 mobile-brands" : "right-map-img-2"}/>
+                            <img src={`/img/${item}`}  alt="brands" title="brands" key={index} className={index > 4 ? "right-map-img-2 mobile-brands" : "right-map-img-2"}/>
                         )
                     })}
             </div>

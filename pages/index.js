@@ -25,7 +25,7 @@ export default function Home() {
                 We pride ourselves on being the most reliable and cheapest garage door service provider in central Ohio. Unlike our competitors, we charge comparatively affordable rates to our clients, owning a home is expensive, and unexpected garage door repair is something that shouldn't have to break the bank. If you don't know whats wrong, Our technicians will carefully assess your garage door to reach the exact root cause of the problem whether it is an issue with the opener, the springs, or anything else it may be. All of our garage door staff is experienced and certified, and you can fully count on our service. The vast majority of our old customers are saying amazing and satisfying things about our services and feel no hesitation in suggesting our garage door service to anyone looking for a fully licensed garage door contractor.
             </p>
             <div className="truck-img-container">
-            <img src="/img/jess-garage-truck.png" alt="" className="home-image" id="truck-pic"/>
+            <img src="/img/jess-garage-truck.png" alt="truck picture" title="truck picture" className="home-image" id="truck-pic"/>
             </div>
             <h4>
                 Exceptional Service with Quick Turnaround and Affordable Pricing!
@@ -37,7 +37,7 @@ export default function Home() {
                 Call us today for more information!
             </p>
             <div className="image-bullet-home">
-                <img src="/img/brown-door.png"  alt="" className="home-image"/>
+                <img src="/img/brown-door.png"  alt="brown door" title="brown garage door" className="home-image"/>
                 <div>
                     <h4>Why Choose Us?</h4>
                     <ul>
@@ -88,7 +88,7 @@ export default function Home() {
         <GoogleReviews />
         </div>
         </div>
-        <a id="href2" target="_blank" href="http://www.2findlocal.com/b/12460751"><img className="anchorImage" alt="jess's overhead garage doors" src="http://www.2findlocal.com/Set/Icons/2.png"/></a><a target="_blank" href="http://taxihowmuch.com"><img alt="taxi fare" src="http://www.2findlocal.com/Set/Icons/u.png"/></a><a id="href3" target="_blank" href="http://go.favecentral.com/12460751"><img className="anchorImage" alt="jess's overhead garage doors" src="http://www.2findlocal.com/Set/Icons/f.png"/></a>
+        <a id="href2" target="_blank" href="http://www.2findlocal.com/b/12460751"><img className="anchorImage" alt="jess's overhead garage doors" title="jess overhead garage doors" src="http://www.2findlocal.com/Set/Icons/2.png"/></a><a target="_blank" href="http://taxihowmuch.com"><img alt="taxi fare" src="http://www.2findlocal.com/Set/Icons/u.png"/></a><a id="href3" target="_blank" href="http://go.favecentral.com/12460751"><img className="anchorImage" alt="jess's overhead garage doors" src="http://www.2findlocal.com/Set/Icons/f.png"/></a>
         <div id="move-down-3">
         <Footer />
 

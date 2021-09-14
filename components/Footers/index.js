@@ -40,14 +40,14 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="footer-bottom">
                     <div className="footer-left">
-                        <img src="/img/logo.png" alt="" className="logo-small"/>
+                        <img src="/img/logo.png" alt="logo" className="logo-small" title="logo"/>
                         <p id="subheader">{'@'}{new Date().getFullYear()} Jess Garage Doors INC</p>
                     </div>
                     <div className="footer-right">
                         <p>(614) 778-0235 Columbus</p>
                         <p><a href="/contact">EMAIL US</a></p>
                         <p><a href="/locations">OUR LOCATIONS</a></p>
-                        <img src="/img/credit-card-icons.png" alt="" className="credit-img"/>
+                        <img src="/img/credit-card-icons.png" alt="card icons" title="card icons" className="credit-img"/>
                         <p className="credit-blurb">All Major Credit Cards Accepted!</p>
                     </div>
                 </div>
