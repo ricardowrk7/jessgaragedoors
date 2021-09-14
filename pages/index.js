@@ -69,6 +69,7 @@ export default function Home() {
       <div className="Page-container">
         <ColorNav />
         <Header />
+        <h1 style={{visibility: 'hidden', height: '5px'}}>Jess Overhead Garage Doors</h1>
         <BrandsCard />
         <ServiceCall />
         <CardSection />
