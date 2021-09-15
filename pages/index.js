@@ -65,7 +65,7 @@ export default function Home() {
         <meta name="description" content="For over 4 decades - The Professionals at Jess Overhead Garage Doors have been providing Columbus and the surrounding comunity with best in class garage doors" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <SEO title="Jess Garage Doors | Home" description="Get garage doors in columbus ohio" />
+      <SEO title="Jess Garage Doors | Home" description="For over 4 decades - The Professionals at Jess Overhead Garage Doors have been providing Columbus and the surrounding comunity with best in class garage doors" />
       <div className="Page-container">
         <ColorNav />
         <Header />
