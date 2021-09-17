@@ -85,6 +85,7 @@ const Form = () => {
             <div className="form-container">
                 <form onSubmit={(e) => handleSubmit(e)}>
                 <div className="form-field">
+                <label style={{ visibility: 'hidden', position: 'absolute' }} name="name">Name</label>
                 <input 
                     placeholder="Name" 
                     type="name" 
@@ -96,6 +97,7 @@ const Form = () => {
                     />
                 </div>
                 <div className="form-field">
+                <label style={{ visibility: 'hidden', position: 'absolute' }} name="phone">Phone</label>
                     <input 
                         placeholder="Phone" 
                         type="phone" 
@@ -107,6 +109,7 @@ const Form = () => {
                         />
                 </div>
                 <div className="form-field">
+                <label style={{ visibility: 'hidden', position: 'absolute' }} name="email">Email</label>
                     <input 
                         placeholder="E-mail" 
                         type="email" 
@@ -118,6 +121,7 @@ const Form = () => {
                         />
                 </div>
                 <div className="form-field">
+                <label style={{ visibility: 'hidden', position: 'absolute' }} name="message">message</label>
                     <input 
                         type="date" 
                         placeholder="mm/dd/yyyy" 

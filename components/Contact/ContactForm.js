@@ -74,6 +74,7 @@ const ContactForm = () => {
             <form onSubmit={(e) => handleSubmit(e)}>
             <div className="form-row-1">
                 <div className="input-top">
+                    <label style={{ visibility: 'hidden', position: 'absolute' }} name="name">Name</label>
                     <input 
                         type="name" 
                         placeholder="Name" 
@@ -87,6 +88,7 @@ const ContactForm = () => {
                         />
                 </div>
                 <div className="input-top">
+                    <label style={{ visibility: 'hidden', position: 'absolute' }} name="phone">Phone</label>
                     <input 
                         type="phone" 
                         placeholder="Phone" 
@@ -100,6 +102,7 @@ const ContactForm = () => {
                 </div>
             </div>
             <div className="input-email-contact">
+                <label style={{ visibility: 'hidden', position: 'absolute' }} name="email">Email</label>
                 <input 
                     type="email" 
                     placeholder="Email" 
@@ -112,6 +115,7 @@ const ContactForm = () => {
                     />
             </div>
             <div className="input-email-contact-3">
+                <label style={{ visibility: 'hidden', position: 'absolute' }} name="message">message</label>
                 <textarea 
                     placeholder="Message" 
                     className="input-class" 
@@ -122,7 +126,7 @@ const ContactForm = () => {
                     required
                     />
             </div>
-            <button type="submit" className="contact-info-2">{loading ? <CircularProgress size={18}/> : 'send'}</button>
+            <button type="submit" name="contact-us" className="contact-info-2">{loading ? <CircularProgress size={18}/> : 'send'}</button>
             </form>
         </div>
     )
