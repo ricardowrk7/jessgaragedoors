@@ -62,20 +62,20 @@ export default function Home() {
       <Head>
         <title>Jess Garage Doors | Home</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-        <meta name="description" content="For over 4 decades - The Professionals at Jess Overhead Garage Doors have been providing Columbus and the surrounding comunity with best in class garage doors" />
+        <meta name="description" content="For over 4 decades - The Professionals at Jess Overhead Garage Doors have been providing Columbus and the surrounding community with best in class garage doors" />
         <meta name="keywords" content="garage, door, doors, services, repair" />
         <meta property="og:title" content="Jess Overhead Garage Doors" />
         <meta property="og:image" content="/img/ad-1" />
         <link rel="icon" href="/img/favicon.png" />
       </Head>
-      <SEO title="Jess Garage Doors | Home" description="For over 4 decades - The Professionals at Jess Overhead Garage Doors have been providing Columbus and the surrounding comunity with best in class garage doors" />
+      <SEO title="Jess Garage Doors | Home" description="For over 4 decades - The Professionals at Jess Overhead Garage Doors have been providing Columbus and the surrounding community with best in class garage doors" />
       <div className="Page-container">
         <ColorNav />
         <Header />
-        <h1 style={{visibility: 'hidden', height: '5px'}}>Jess Overhead Garage Doors</h1>
+        <h1 style={{visibility: 'hidden', height: '0px', position: 'absolute'}}>Jess Overhead Garage Doors</h1>
+        <CardSection />
         <BrandsCard />
         <ServiceCall />
-        <CardSection />
         {/* <ContentSection cardContent={cardContent}/> */}
         <ServiceInfo /> 
         <div className="service-section-two" id="secondary-section">
