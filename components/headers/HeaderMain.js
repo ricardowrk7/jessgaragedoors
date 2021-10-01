@@ -31,6 +31,7 @@ const Header = () => {
                     </ul>
                     <h2 id="header-subtitle">WE DO IT ALL!!!</h2>
                 </div>
+                <p className="lic-bon-ins">Fully Licensed, Bonded {'&'} Insured</p>
             </div>
             <div className="below-header">
                 <p className="below-header-text">100% Satisfaction Guarantee. Same Day Services</p>

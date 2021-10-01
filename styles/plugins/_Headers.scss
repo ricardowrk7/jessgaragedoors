@@ -12,6 +12,7 @@
   background-position: center;
   padding-top: 30px;
   margin-top: 90px;
+  position: relative;
 }
 
 #logo-home {
@@ -62,7 +63,13 @@
   padding: 0px;
   margin: 12px;
 }
-
+.lic-bon-ins {
+  width: 90vw;
+  text-align: right;
+  position: absolute;
+  bottom: 15px;
+  display: none;
+}
 .garage-text {
   font-size: 34px;
   font-weight: bold;
@@ -238,6 +245,10 @@
   #logo-home {
     max-width: 450px;
   }
+  .lic-bon-ins {
+    display: block;
+    bottom: 0px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -255,6 +266,10 @@
 @media (max-width: 414px) {
   .below-header-text {
     font-size: 16px;
+  }
+  .lic-bon-ins {
+    display: none;
+    bottom: 0px;
   }
 }
 
