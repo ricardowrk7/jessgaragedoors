@@ -9,7 +9,7 @@ const ContactCard = () => {
             <div className="card-contact-text">
                 <div className="icon-info">
                     <i className="fa fa-phone-square" id="not-italic" style={{color: 'red', fontSize: '18px'}} />
-                    <p className="edit-text-contact">(614) 778-0235</p>
+                    <a href="tel:614-778-0235"  className="edit-text-contact">(614) 778-0235</a>
                 </div>
                 <div className="icon-info">
                     <i className="fa fa-home" id="not-italic" style={{color: 'red', fontSize: '20px'}} />

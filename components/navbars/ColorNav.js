@@ -55,7 +55,7 @@ const ColorNav = () => {
                 <div className="inner-nav">
                 <div className="nav-left">
                     <p className="roboto-text">Same Day Service</p>
-                    <button className="sales-btn" onClick={() => router.push('/contact')}>
+                    <button className="sales-btn" href="tel:614-778-0235" onClick={() => router.push('/contact')}>
                         CALL NOW 614-778-0235
                     </button>
                 </div>

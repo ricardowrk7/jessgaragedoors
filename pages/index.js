@@ -74,8 +74,8 @@ export default function Home() {
         <Header />
         <h1 style={{visibility: 'hidden', height: '0px', position: 'absolute'}}>Jess Overhead Garage Doors</h1>
         <CardSection />
-        <BrandsCard />
         <ServiceCall />
+        <BrandsCard />
         {/* <ContentSection cardContent={cardContent}/> */}
         <ServiceInfo /> 
         <div className="service-section-two" id="secondary-section">
