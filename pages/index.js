@@ -4,6 +4,7 @@ import Header from '../components/headers/HeaderMain';
 import CardSection from '../components/Sections/Presentation/PresentationCards';
 import ServiceCall from '../components/Sections/ServiceCall';
 import BrandsCard from '../components/Sections/BrandsCard';
+import ReviewQuoteBtn from '../components/Sections/ReviewQuoteBtn';
 import ContactForm from '../components/Contact/ContactForm';
 import GoogleReviews from '../components/Sections/ReviewsGoogle';
 import ServiceInfo from '../components/Sections/ServiceInfo';
@@ -73,6 +74,7 @@ export default function Home() {
         <ColorNav />
         <Header />
         <h1 style={{visibility: 'hidden', height: '0px', position: 'absolute'}}>Jess Overhead Garage Doors</h1>
+        <ReviewQuoteBtn />
         <CardSection />
         <ServiceCall />
         <BrandsCard />

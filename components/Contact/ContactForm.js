@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import Contact from '../Sections/Presentation/ContactCard';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
-const ContactForm = () => {
+const ContactForm = ({type}) => {
     const [focus, setFocus] = useState(false);
     const [loading, setLoading] = useState(false);
     const [name, setName] = useState('');
@@ -70,7 +70,7 @@ const ContactForm = () => {
 
     return (
         <div className="outer-contact-box">
-            <p className="contact-title">Request A service</p>
+            <p className="contact-title">{type ? 'Leave Feedback' : 'Request A service'}</p>
             <form onSubmit={(e) => handleSubmit(e)}>
             <div className="form-row-1">
                 <div className="input-top">
@@ -115,9 +115,9 @@ const ContactForm = () => {
                     />
             </div>
             <div className="input-email-contact-3">
-                <label style={{ visibility: 'hidden', position: 'absolute' }} name="message">message</label>
+                <label style={{ visibility: 'hidden', position: 'absolute' }} name="message">{type ? 'comments' : 'message'}</label>
                 <textarea 
-                    placeholder="Message" 
+                    placeholder={type ? 'Leave your Feedback...' : 'Message'}
                     className="input-class" 
                     value={message}
                     label="message"

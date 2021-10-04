@@ -1,0 +1,53 @@
+/** @format */
+
+.btn-one-black {
+  margin: 10px 5px 15px 5px;
+  width: 50%;
+  min-width: 250px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  max-width: 400px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #101;
+  color: #fff;
+  outline: none;
+  border: 1px solid #101;
+  border-radius: 4px;
+  padding-bottom: 5px;
+  @media (min-width: 1354px) {
+    display: none;
+  }
+}
+
+.padding-top {
+  padding-top: 25px;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.contact-stack {
+  display: grid;
+  width: 100%;
+  justify-items: center;
+}
+
+.grid-center {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.feedback-container {
+  margin: 40px 40px;
+  display: grid;
+  justify-items: center;
+}
+
+.add-top-padding {
+  padding-top: 40px;
+}
