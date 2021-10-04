@@ -1,7 +1,9 @@
+import {useRouter} from 'next/router';
 import React, {useState, useEffect} from 'react';
 
 const Google = () => {
     const [shuffleReviews, setShuffleReviews] = useState([]);
+    const router = useRouter();
     const reviews = [
         {
             name: "John Fridinger",
@@ -126,7 +128,7 @@ const Google = () => {
             <div className="google-reviews">
             {shuffleReviews.map((item, index) => {
                 return (
-                    <div key={index}>
+                    <div key={index} onClick={() => router.push('/leave-feedback')} style={{cursor: 'pointer'}}>
                         {index < 4 &&
 
                         <div className="review-boxes">
