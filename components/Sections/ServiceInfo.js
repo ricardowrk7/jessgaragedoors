@@ -40,8 +40,8 @@ const ServiceInfo = () => {
                     <img src="/img/house-garage.png" alt="Residential Garage" title="Residential Garage" className="service-pic"/>
                     <div className="service-right-section">
                         <h2 className="residential-title">Residential Garage Door Services</h2>
-                        <p className="description-service-text">For over 4 decades - The Professionals at Jess Overhead Garage Doors have been providing Columbus and the surrounding community with best in class garage door repair and installation services.</p>
-                        <p className="description-service-text">We offer a large selection of affordable and durable garage doors, openers and accessories. As a result, we are the best choice in central ohio for top quality garage doors and openers.</p>
+                        <p className="description-service-text">The Professionals at Jess Overhead Garage Doors of Columbus have provided Garage door repair and garage door installation to Columbus and the surrounding community for over 4 decades.</p>
+                        <p className="description-service-text">We offer a large selection of affordable and durable garage doors, openers and accessories. As a result, we are the best choice in central ohio for top quality garage doors installation and garage door repair.</p>
                         <div className="products-btn-container">
                             <button className="products-btn">
                                 Our Services <i className="fa fa-arrow-right  arrow-btn" id="not-italic" />

@@ -63,13 +63,13 @@ export default function Home() {
       <Head>
         <title>Jess Garage Doors | Home</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-        <meta name="description" content="For over 4 decades - The Professionals at Jess Overhead Garage Doors have been providing Columbus and the surrounding community with best in class garage doors" />
+        <meta name="description" content="The Professionals at Jess Overhead Garage Doors of Columbus have provided Garage door repair and garage door installation to Columbus and the surrounding community for over 4 decades." />
         <meta name="keywords" content="garage, door, doors, services, repair" />
         <meta property="og:title" content="Jess Overhead Garage Doors" />
         <meta property="og:image" content="/img/ad-1" />
         <link rel="icon" href="/img/favicon.png" />
       </Head>
-      <SEO title="Jess Garage Doors | Home" description="For over 4 decades - The Professionals at Jess Overhead Garage Doors have been providing Columbus and the surrounding community with best in class garage doors" />
+      <SEO title="Jess Garage Doors | Home" description="The Professionals at Jess Overhead Garage Doors of Columbus have provided Garage door repair and garage door installation to Columbus and the surrounding community for over 4 decades." />
       <div className="Page-container">
         <ColorNav />
         <Header />
