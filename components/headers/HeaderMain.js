@@ -7,7 +7,7 @@ const Header = () => {
                 <div className="header-left">
                     <div className="logo-box">
                     <img src="/img/logo.png"  alt="logo" title="logo" id="logo-home"/>
-                    <p className="sublogo">Residential {'&'} Comercial Garage Doors</p>
+                    <p className="sublogo">Residential {'&'} commercial Garage Doors</p>
                     </div>
                     <p className="subtitle-text">WITH A SIMPLE PHONE CALL, YOU'LL HAVE A TECHNICIAN AT YOUR HOME TO FIX ANY ISSUE WITH YOUR GARAGE DOOR.</p>
                     <div className="mobile-fix-header">
